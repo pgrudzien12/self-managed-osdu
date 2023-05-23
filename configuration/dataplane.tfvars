@@ -14,11 +14,11 @@
   5. Agent VM Disk       ** Size as appropriate
 */
 
-prefix = "osdu-self"
+prefix = "osdu-pl2"
 
 resource_tags = {
   environment = "Self Managed OSDU"
-  contact = "<your_name>"
+  contact = "Pawel Grudzien"
   repo = "https://github.dev/danielscholl/self-managed-osdu"
 }
 

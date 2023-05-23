@@ -13,9 +13,9 @@
 //  limitations under the License.
 
 
-tenant_name = "<your_tenant>"
+tenant_name = "osdu-coe"
 
-prefix = "osdu-self"
+prefix = "osdu-pl2"
 
 dashboards = {
   default         = true
