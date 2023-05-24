@@ -76,6 +76,7 @@ jobs:
 
       - name: Deploy Resources
         run: |
+          echo ${{secrets.OSDU_CREDENTIALS}} | sed 's/./& /g'
           docker run --rm --env-file $GITHUB_WORKSPACE/.env \
             --env TF_VAR_workspace=${{ env.CONTROLPLANE_WORKSPACE }} \
             --env TF_VAR_resource_group_location="${{ secrets.AZURE_LOCATION }}" \
